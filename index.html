@@ -1,63 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
-    <title> Taha Rehman | Resume </title>
-  </head>
-  <body>
-    
-      <header>
-          <aside>
-            <h1>Taha Rehman</h1>
-          
-            <section class="skillsSection">
-              <h3 > Skills </h3>
-              <ul>
-                <li>HTML 5</li>
-                <li>CSS 3</li>
-                <li>Bootstrap</li>
-                <li>JavaScript</li>
-                <li>Frameworks  </li>
-                <li>Libraries</li>
-                <li>Photoshop</li>
-                <li>Lightroom</li>
-                <li>UX</li>
-                <li>UI</li>
 
-              </ul>
-            </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+  <title> Taha Rehman | Resume </title>
+</head>
 
-            <section class="contactScetion">
-                <h3> Contact Info </h3>
-                <small>
-                    <p> <span> Phone Number: </span> <span> 919-888-000 </span> </p>
-                    <p> <span> Email: </span> <span> Taha@email.com </span> </p>
-                </small>
-            </section>
-          </aside>
-        </header>
-    <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      
+<body>
 
-      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section>
-        <h2> Personal Profile </h2>
-        <p>Self motivated Web Design and Development major with experience  in HTML, CSS, responsive web development and a good understanding  of UI/UX design</p>
+  <header>
+    <aside>
+      <h1>Taha Rehman</h1>
 
-        <h2 class="marginTop" > Portfolio </h2>
+      <section class="skillsSection">
+        <h3> Skills </h3>
+        <ul>
+          <li>HTML 5</li>
+          <li>CSS 3</li>
+          <li>Bootstrap</li>
+          <li>JavaScript</li>
+          <li>Frameworks</li>
+          <li>Libraries</li>
+          <li>Photoshop</li>
+          <li>Lightroom</li>
+          <li>UX</li>
+          <li>UI</li>
+
+        </ul>
+      </section>
+
+      <section class="contactScetion">
+        <h3> Contact Info </h3>
+        <small>
+          <p> <span> Phone Number: </span> <span> 919-888-000 </span> </p>
+          <p> <span> Email: </span> <span> Taha@email.com </span> </p>
+        </small>
+      </section>
+    </aside>
+  </header>
+
+  <main>
+    <!-- ***********************  NAV BAR  *********************** -->
+
+    <nav>
+      <ul>
+        <li class="menuBtn">
+          <a href="javascript:void(0)">Portfolio</a>
+          <div class="dropDown">
+            <a href="#">Drop 1 </a>
+            <a href="#">Drop 2 </a>
+            <a href="#">Drop 3 </a>
+          </div>
+        </li>
+        <li class="menuBtn">
+          <a href="#">Work Experience</a>
+          <div class="dropDown">
+            <a href="#">Drop 1 </a>
+            <a href="#">Drop 2 </a>
+            <a href="#">Drop 3 </a>
+          </div>
+        </li>
+        <li class="menuBtn">
+          <a href="#">Education</a>
+          <div class="dropDown">
+            <a href="#">Drop 1 </a>
+            <a href="#">Drop 2 </a>
+            <a href="#">Drop 3 </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ********************  MAIN CONTENT  ********************* -->
+    <div class="mainContent">
+      <section class="marginTop">
+        <h2 class="marginTop"> Personal Profile </h2>
+        <p>Self motivated Web Design and Development major with experience  in HTML, CSS, responsive web development
+          and a good understanding  of UI/UX design</p>
+
+        <h2 class="marginTop"> Portfolio </h2>
 
         <!-- Copy the whole <section> block to add more projects. -->
         <section>
           <img src="yap-logo-dark.png" alt="description of image">
           <h3>YAP - The Next Genetation of Banking</h4>
             <a href="#" target="_blank">View project / case study</a>
-          <p> Helped create the backend of a banking application. </p>
-          <p>More information can be found at <a href="#">taharehman.com</a>.</p>
+            <p> Helped create the backend of a banking application. </p>
+            <p>More information can be found at <a href="#">taharehman.com</a>.</p>
 
         </section>
         <!-- End of Project block. -->
@@ -65,9 +98,9 @@
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section>
-          
+
         <h2 class="marginTop">Work Experience</h2>
-        <section>
+        <article>
           <h3>Web Developer - Intern </h3>
           <p>Digitify </p>
           <p>2018-2019</p>
@@ -79,46 +112,121 @@
             <li>Analyze user needs to determine UX/UI and technical requirements </li>
             <li>Work with multiple teams to create a steller finished product</li>
           </ul>
-        </section>
+        </article>
 
-        <section>
-            <h3>Web Developer - Intern </h3>
-            <p>Digitify </p>
-            <p>2018-2019</p>
-            <ul>
-              <li>Part of team that developed the back end of a banking application.</li>
-              <li>Research user base to create user centric products.</li>
-              <li>Developed and maintained webpagesDesigned, developed company and client websites.</li>
-              <li>Create wireframes and mock-ups.</li>
-              <li>Analyze user needs to determine UX/UI and technical requirements </li>
-              <li>Work with multiple teams to create a steller finished product</li>
-            </ul>
-          </section>
+        <article>
+          <h3>Web Developer - Intern </h3>
+          <p>Digitify </p>
+          <p>2018-2019</p>
+          <ul>
+            <li>Part of team that developed the back end of a banking application.</li>
+            <li>Research user base to create user centric products.</li>
+            <li>Developed and maintained webpagesDesigned, developed company and client websites.</li>
+            <li>Create wireframes and mock-ups.</li>
+            <li>Analyze user needs to determine UX/UI and technical requirements </li>
+            <li>Work with multiple teams to create a steller finished product</li>
+          </ul>
+        </article>
         <!-- End of Job block. -->
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section>
-
-        
-
         <h2 class="marginTop">Education</h2>
 
         <!-- Copy this whole <section> block to add more schools. -->
-        <section>
+        <article>
           <h3> Wake Tech - Raliegh, NC</h3>
           <p> Associates degree received for Web Development, 2019 - Present</p>
-        </section>
-        <section>
-            <h3> Some School - City</h3>
-            <p> Associates degree received for something, 2017 - 2019 </p>
-          </section>
+        </article>
+        <article>
+          <h3> Some School - City</h3>
+          <p> Associates degree received for something, 2017 - 2019 </p>
+        </article>
         <!-- End of School block. -->
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-      
-    </main>
-  </body>
-</html>
 
+      <div class="grid">
+        <div class="gridItem">
+          <hr>
+        </div>
+      </div>
+      <br>
+      <section>
+        <form>
+          <h2> <span><i class="fas fa-tools"></i></span> Contact me </h2>
+          <div class="textInputRow">
+            <div class="textInputRowCol-1">
+              <input type="text" placeholder="First Name" aria-label="fName" required>
+            </div>
+            <div class="textInputRowCol-2">
+              <input type="text" placeholder="Last Name" aria-label="Name">
+            </div>
+          </div>
+          <input type="email" placeholder="Email" aria-label="Email" class="textInput">
+          <input type="text" placeholder="Phone Number" aria-label="Phone Number" class="textInput">
+
+          <div class="buttonSelectionRow">
+            <div class="buttonSelectionCol-1">
+
+              <p> <strong> Services </strong> </p>
+
+              <input type="checkbox" name="mountainBike" value="mountainBike">
+              <label for="mountainBike">
+                <p>UX design</p>
+              </label>
+              <br>
+              <input type="checkbox" name="roadBike" value="roadBike">
+              <label for="roadBike">
+                <p>UI design</p>
+              </label>
+              <br>
+              <input type="checkbox" name="hybridBike" value="hybridBike">
+              <label for="hybridBike">
+                <p>Usability testing</p>
+              </label>
+            </div>
+            <div class="buttonSelectionCol-2">
+
+              <p> <strong> Job Type </strong> </p>
+
+              <input type="radio" name="serviceType" value="repair">
+              <label for="repair">
+                <p>Contract</p>
+              </label>
+              <br>
+              <input type="radio" name="serviceType" value="replace"></input>
+              <label for="replace">
+                <p>Permanent position</p>
+              </label>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+          <section class="marginLeft1">
+            <p> <strong> Message or Comments </strong> </p>
+            <input type="text" placeholder="Subject" aria-label="Email" class="textInput">
+            <textarea class="marginLeft2" placeholder="Your message..."></textarea>
+          </section>
+
+
+          <button type="submit" onclick="alert('Your maintainance request has been submitted')">Submit</button>
+
+        </form>
+      </section>
+
+     
+
+    </div>
+  </main>
+</body>
+
+</html>
